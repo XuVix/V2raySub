@@ -4,7 +4,7 @@ from github import Github
 import schedule
 import time
 
-links = [""]
+links = ["https://aminerror.sajan87847.workers.dev/sub", "https://proxyhubc.sajan87847.workers.dev/sub"]
 
 
 file_path = "v2ray_config.txt"
@@ -34,7 +34,7 @@ def job():
                 response = requests.get(link)
                 cleaned_text = clean_data(response.text)
                 file.write(cleaned_text)
-                if index != len(links) - 1:
+                if index != 1 :
                     file.write(",\n")
             file.write("]")
 
