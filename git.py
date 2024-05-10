@@ -8,7 +8,7 @@ link = "https://aminerror.sajan87847.workers.dev/sub"
 file_path = "v2ray_config.txt"
 
 # Enter your GitHub token and username here
-github_token = "your_github_token"
+github_token = "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"
 github_username = "XuVix"
 repository_name = "V2raySub"
 
