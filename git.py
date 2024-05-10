@@ -2,13 +2,13 @@ import requests
 from github import Github
 
 # The link from which we will retrieve the data
-link = "https://aminerror.sajan87847.workers.dev/sub"
+link = ""
 
 # The file to save the retrieved data
 file_path = "v2ray_config.txt"
 
 # Enter your GitHub token and username here
-github_token = "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"
+github_token = ""
 github_username = "XuVix"
 repository_name = "V2raySub"
 
