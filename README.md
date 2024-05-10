@@ -2,7 +2,7 @@
 V2ray Subscription Link
 
 
-> All Subscription Link
+> All Location Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
 ```
