@@ -864,7 +864,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇳🇱 @ProxyHubC - MKH & MTN -...",
+        "remarks": "🇳🇱 @ProxyHubC - MKH & MTN -",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
