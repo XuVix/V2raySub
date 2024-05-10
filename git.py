@@ -4,7 +4,7 @@ from github import Github
 import schedule
 import time
 
-links = ["https://aminerror.sajan87847.workers.dev/sub", "https://proxyhubc.sajan87847.workers.dev/sub"]
+links = [""]
 
 file_path = "v2ray_config.txt"
 
