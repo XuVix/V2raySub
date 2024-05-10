@@ -8,25 +8,25 @@ https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
 ```
 # Subscription Links Separated by Location
 
-> Germany Subscription Link
+> 🇩🇪 Germany Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/Germany/DE_configs.txt#XuVix⚡
 ```
-> Netherlands Subscription Link
+> 🇳🇱 Netherlands Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/Netherlands/NL_configs.txt#XuVix⚡
 ```
 
-> United Arab Emirates Subscription Link
+> 🇦🇪 United Arab Emirates Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/United-Arab-Emirates/UAE_configs.txt#XuVix⚡
 ```
-> United Kingdom Subscription Link
+> 🇬🇧 United Kingdom Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/United-Kingdom/UK_configs.txt#XuVix⚡
 ```
 
-> United States Subscription Link
+> 🇺🇸 United States Subscription Link
 ```
 https://raw.githubusercontent.com/XuVix/V2raySub/main/United-States/US_configs.txt#XuVix⚡
 ```
