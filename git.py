@@ -25,7 +25,7 @@ def job():
         
         with open(file_path, "a") as file:
             file.write("[")
-            for index, link in enumerate(links):  # Define index inside the loop
+            for index, link in enumerate(links):  
                 response = requests.get(link)
                 cleaned_text = clean_data(response.text)
                 file.write(cleaned_text)
