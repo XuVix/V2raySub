@@ -2,12 +2,12 @@
 V2ray Subscription Link
 
 
->  Subscription Link OF All Locations
-> ```
-> https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
-> ```
+All Subscription Link
+```
+https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
+```
 
->  Subscription Link OF All Locations
-> ```
-> https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
-> ```
+  Germany Subscription Link
+```
+https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
+```
