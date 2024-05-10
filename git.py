@@ -24,17 +24,22 @@ try:
     with open(file_path, "w") as file:
         file.write(response.text)
 
+    # Get the SHA checksum of the existing file (if it exists)
     try:
-        # Upload the file to GitHub
-        with open(file_path, "r") as file:
-            content = file.read()
+        existing_file = repo.get_contents(file_path)
+        sha = existing_file.sha
+    except Exception as e:
+        sha = None
+
+    # Upload the file to GitHub
+    with open(file_path, "r") as file:
+        content = file.read()
+        if sha:
+            repo.update_file(file_path, "Commit message", content, sha)
+        else:
             repo.create_file(file_path, "Commit message", content)
 
-        print("Data successfully retrieved and uploaded to GitHub.")
-
-    except Exception as upload_error:
-        print(f"An error occurred while uploading to GitHub: {upload_error}")
+    print("Data successfully retrieved and uploaded to GitHub.")
 
 except Exception as e:
     print(f"An error occurred: {e}")
-      
