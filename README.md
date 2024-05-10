@@ -2,16 +2,12 @@
 V2ray Subscription Link
 
 
->  First, put the following two variables at the beginning of the code and set the expiration date.
+>  Subscription Link OF All Locations
 > ```
-> const targetH = "2026-12-30T00:00:00"
-> const targetDate = new Date(targetH);
+> https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
 > ```
->  And put the following codes in line 240
+
+>  Subscription Link OF All Locations
 > ```
->if (currentDate > targetDate) {
->
-> userID = "None";
->
->} 
+> https://raw.githubusercontent.com/XuVix/V2raySub/main/All_configs.txt#XuVix⚡
 > ```
