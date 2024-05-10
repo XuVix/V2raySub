@@ -74,11 +74,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amiNeRrOr.SAJan87847.WorkErs.DEV"
+                        "serverName": "AminerroR.SaJAN87847.WOrKERS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMInerror.SaJAn87847.WORKerS.DeV"
+                            "Host": "aminERroR.saJaN87847.wORkerS.dEV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -216,11 +216,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmInERRor.SaJan87847.WOrkeRS.dev"
+                        "serverName": "amineRrOR.sAjAN87847.WORkeRS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AminERroR.sAJan87847.WorkERs.DEv"
+                            "Host": "aMinerror.SaJAn87847.workeRs.deV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -358,11 +358,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMiNeRRor.SAjAN87847.WoRKErS.dEV"
+                        "serverName": "AMinErRor.SajAn87847.woRKErS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "amInerROR.SAjAn87847.woRKeRs.dEv"
+                            "Host": "AMiNErrOR.SaJAN87847.WoRkeRs.DEV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -506,11 +506,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amineRROr.sAjan87847.WoRKErS.dev"
+                        "serverName": "aminerroR.SajAn87847.WOrKErs.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "amINErrOr.SAJAn87847.WoRKERS.dEV"
+                            "Host": "AmINERroR.sAJan87847.WoRKeRs.deV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -654,11 +654,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmINeRrOR.SaJAN87847.WORkers.deV"
+                        "serverName": "amInERRoR.saJan87847.wORkErs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMinerROr.SAjAn87847.WOrkerS.dEv"
+                            "Host": "aMiNERRor.SAjAN87847.woRkeRs.dEV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -796,11 +796,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmIneRrOr.Sajan87847.WORKERS.DEV"
+                        "serverName": "AmINerROr.sAJaN87847.WOrkErs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMINerroR.SAJAN87847.WOrKers.DEV"
+                            "Host": "amINERrOR.sajaN87847.WORKeRS.deV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -863,6 +863,7 @@
         },
         "stats": {}
     }
+,
 
     {
         "remarks": "🇳🇱 @ProxyHubC - MKH & MTN -...",
@@ -939,11 +940,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "proxyHUBC.SAjAn87847.WoRKErs.DEV"
+                        "serverName": "PRoXyhUBc.sajan87847.WorKeRs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "prOXyhuBc.sAJAN87847.woRkErS.DEV"
+                            "Host": "PrOXYHubc.sajAn87847.woRKErs.DEv"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1081,11 +1082,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "pROxYHUBC.sajAN87847.woRkErs.dEv"
+                        "serverName": "PRoxyHuBc.sAJaN87847.wORkErs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "PROxyHUbc.SAjaN87847.WOrKERS.DEV"
+                            "Host": "pRoxYhUbc.sajan87847.worKeRS.deV"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1223,11 +1224,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "pRoXYHUbC.Sajan87847.wORkERs.dev"
+                        "serverName": "PRoXYHubc.SaJAN87847.wOrKErs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "pROXyHuBC.sAJan87847.WOrKeRS.DEV"
+                            "Host": "pRoXyHubC.SAJAn87847.WOrkERs.DEV"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1371,11 +1372,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "PROxyhubc.sajAN87847.WorkErs.deV"
+                        "serverName": "pRoXyHuBC.saJan87847.WORkers.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "ProxyHUBC.SAjaN87847.WORKERs.dev"
+                            "Host": "ProXYhUBc.sAjaN87847.wORKERS.DEv"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1519,11 +1520,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "PrOxYHubc.SajaN87847.WOrKeRs.DEV"
+                        "serverName": "PROXyhuBc.sAJAN87847.WorkERS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "pROxyhUbC.SajAn87847.worKers.Dev"
+                            "Host": "pROXYhUbC.SAjAN87847.WOrKeRs.deV"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1661,11 +1662,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "pROXyhuBc.SajAN87847.wORkerS.dev"
+                        "serverName": "ProxYHuBC.saJAn87847.woRkeRS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "ProxyhubC.sajAn87847.WOrKeRs.DEV"
+                            "Host": "PROXyHubC.SAjan87847.WoRkeRs.DEv"
                         },
                         "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
                     }
@@ -1728,5 +1729,4 @@
         },
         "stats": {}
     }
-,
 ]
