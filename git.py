@@ -4,7 +4,7 @@ import schedule
 import time
 
 # The links from which we will retrieve the data
-links = ["https://aminerror.sajan87847.workers.dev/sub", "https://proxyhubc.sajan87847.workers.dev/sub"]
+links = [""]
 
 # The file to save the retrieved data
 file_path = "v2ray_config.txt"
@@ -13,6 +13,12 @@ file_path = "v2ray_config.txt"
 github_token = "your_github_token"
 github_username = "XuVix"
 repository_name = "V2raySub"
+
+def clean_data(data):
+    # Remove [] at the beginning and end of the data
+    cleaned_data = re.sub(r'^\[|\]$', '', data)
+    return cleaned_data
+
 
 def job():
     try:
@@ -27,10 +33,13 @@ def job():
 
         # Aggregate data from all links and save it to the file
         with open(file_path, "a") as file:
+            file.write("[")
             for link in links:
                 response = requests.get(link)
-                file.write(response.text)
-                file.write("\n\n")  # Add two empty lines as a separator between each data
+                cleaned_text = clean_data(response.text)
+                file.write(cleaned_text)
+                file.write(",\n")  # Add two empty lines as a separator between each data
+            file.write("]")
 
         # Get the SHA checksum of the existing file (if it exists)
         try:
@@ -52,6 +61,7 @@ def job():
     except Exception as e:
         print(f"An error occurred: {e}")
 
+job()
 # Schedule the job to run every two hours
 schedule.every(2).hours.do(job)
 
