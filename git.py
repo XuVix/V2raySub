@@ -30,7 +30,7 @@ def job():
         
         with open(file_path, "a") as file:
             file.write("[")
-            for link in links:
+            for index, link in links:
                 response = requests.get(link)
                 cleaned_text = clean_data(response.text)
                 file.write(cleaned_text)
