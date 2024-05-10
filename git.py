@@ -8,7 +8,7 @@ links = ["https://aminerror.sajan87847.workers.dev/sub", "https://proxyhubc.saja
 
 file_path = "v2ray_config.txt"
 
-github_token = "your_github_token"
+github_token = ""
 github_username = "XuVix"
 repository_name = "V2raySub"
 
@@ -29,7 +29,7 @@ def job():
                 response = requests.get(link)
                 cleaned_text = clean_data(response.text)
                 file.write(cleaned_text)
-                if index != 0 :
+                if index != len(links) - 1 :
                     file.write(",\n")
             file.write("]")
 
