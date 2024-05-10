@@ -862,10 +862,7 @@
             ]
         },
         "stats": {}
-    }
-],
-
-[
+    },
     {
         "remarks": "🇳🇱 @ProxyHubC - MKH & MTN -...",
         "dns": {
