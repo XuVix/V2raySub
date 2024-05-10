@@ -6,6 +6,8 @@ import time
 
 links = ["https://aminerror.sajan87847.workers.dev/sub", "https://proxyhubc.sajan87847.workers.dev/sub"]
 
+index = 2
+
 
 file_path = "v2ray_config.txt"
 
@@ -30,11 +32,12 @@ def job():
         
         with open(file_path, "a") as file:
             file.write("[")
-            for index, link in links:
+            for link in links:
+                index = index - 1
                 response = requests.get(link)
                 cleaned_text = clean_data(response.text)
                 file.write(cleaned_text)
-                if index != 1 :
+                if index != 0 :
                     file.write(",\n")
             file.write("]")
 
