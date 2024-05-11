@@ -74,11 +74,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DuBaI.piLIcE1744.WORKErs.deV"
+                        "serverName": "dubAI.pILicE1744.WORKERS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUBAI.PiLICE1744.wOrkErS.dEv"
+                            "Host": "dubAi.pILIcE1744.WORkERS.dev"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -216,11 +216,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DUbAI.pilIce1744.Workers.deV"
+                        "serverName": "duBAi.PiLicE1744.wORKeRS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUBaI.pIliCe1744.workErs.dev"
+                            "Host": "duBai.PiLICe1744.WorKERS.DeV"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -358,11 +358,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUbAi.PiLicE1744.wORkeRS.Dev"
+                        "serverName": "dubaI.PILicE1744.wOrKeRs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DuBaI.PilicE1744.woRkerS.dEv"
+                            "Host": "DUBaI.PIliCE1744.WOrkERs.DEv"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -506,11 +506,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUbaI.pilIcE1744.wORKeRS.deV"
+                        "serverName": "dUbaI.PILice1744.WOrKers.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "dUBAi.PiLice1744.workeRs.dEv"
+                            "Host": "dUbAI.pilICe1744.WoRKERs.DEv"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -654,11 +654,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dubaI.PILICE1744.WOrkers.Dev"
+                        "serverName": "dUbai.pilIce1744.wORkers.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUBai.PiLIce1744.wORKers.dev"
+                            "Host": "DUBAI.PIlicE1744.wORKErs.DEv"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -796,11 +796,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DUbaI.PIliCE1744.wORkErs.DeV"
+                        "serverName": "duBAI.pIlIce1744.wORKERS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "duBaI.PilICE1744.wOrkers.Dev"
+                            "Host": "DuBAi.pIliCe1744.WorkERS.DEV"
                         },
                         "path": "/🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT🇦🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -940,11 +940,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uk.PILIce1744.WoRkeRs.DeV"
+                        "serverName": "uk.PILICe1744.wOrKERS.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.pIliCe1744.wORKERs.Dev"
+                            "Host": "uk.pILicE1744.wORkers.dev"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1082,11 +1082,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.PIliCE1744.woRKerS.DEv"
+                        "serverName": "UK.pIliCE1744.WOrKers.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.pILIcE1744.woRKeRs.dEv"
+                            "Host": "uK.pILICe1744.workeRs.DEv"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1224,11 +1224,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uk.pILIcE1744.WoRkeRs.deV"
+                        "serverName": "uk.piLiCE1744.WOrkERS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.piLICE1744.WOrkers.Dev"
+                            "Host": "UK.PiLiCe1744.WorkeRS.dEv"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1372,11 +1372,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UK.PIlicE1744.wORkERs.dEV"
+                        "serverName": "uK.PilIcE1744.woRKeRS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.piliCe1744.WORkeRS.Dev"
+                            "Host": "Uk.PILICE1744.woRkERS.dev"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1520,11 +1520,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.pILICE1744.workErS.dEv"
+                        "serverName": "UK.PilIce1744.wORKERS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.pIlICE1744.woRkeRs.Dev"
+                            "Host": "uk.piLICE1744.wORKers.deV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1662,11 +1662,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PILice1744.wORkerS.dEv"
+                        "serverName": "uK.PiLice1744.WORKers.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.PIlicE1744.WoRKERs.Dev"
+                            "Host": "UK.PiLiCe1744.WOrkERS.Dev"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1806,11 +1806,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMS.pIliCE1744.WOrkers.dEV"
+                        "serverName": "AMs.piLice1744.wORkERs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Ams.PilICe1744.WoRkERS.DeV"
+                            "Host": "amS.PIlIce1744.WOrkeRS.DEv"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -1948,11 +1948,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMS.piLICE1744.WOrKeRs.DEv"
+                        "serverName": "aMs.PILicE1744.woRKers.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "ams.piLicE1744.woRkers.Dev"
+                            "Host": "AMs.piLICe1744.wOrkerS.Dev"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2090,11 +2090,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amS.PiLiCe1744.woRKERS.dEV"
+                        "serverName": "aMS.piliCE1744.worKErs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "ams.pilICe1744.wORKerS.dev"
+                            "Host": "AmS.PIlICE1744.wORKErs.Dev"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2238,11 +2238,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmS.PIlicE1744.worKErs.dEV"
+                        "serverName": "aMs.pIliCE1744.WORkERs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMS.PILiCe1744.WoRkErS.Dev"
+                            "Host": "aMs.PilICE1744.wOrKErs.DeV"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2386,11 +2386,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMs.piLICe1744.worKerS.DEV"
+                        "serverName": "AMS.pILiCe1744.WOrKeRs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMS.piLicE1744.woRkErS.dEv"
+                            "Host": "aMS.PiLICE1744.wOrKERs.DEV"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2528,11 +2528,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMS.PiLIcE1744.wORkerS.dEv"
+                        "serverName": "AMS.PilIce1744.WorkeRS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "ams.pILIcE1744.WOrKErS.dev"
+                            "Host": "aMS.pilice1744.woRkers.DeV"
                         },
                         "path": "/🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT🇳🇱 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2672,11 +2672,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "USa.pIlICe1744.woRKErS.dEV"
+                        "serverName": "UsA.PILICe1744.wORkers.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "USA.piLIce1744.WOrKers.deV"
+                            "Host": "usa.PiLiCE1744.wOrkErs.DEV"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2814,11 +2814,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UsA.pilICE1744.WOrKERs.Dev"
+                        "serverName": "uSa.pILICE1744.WoRkerS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uSa.PiLIcE1744.WOrkERs.DEV"
+                            "Host": "usa.piLIce1744.wORkeRs.dEv"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -2956,11 +2956,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uSA.PiLiCE1744.wORKErS.Dev"
+                        "serverName": "UsA.pIliCE1744.WorkERS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "usa.PIlice1744.WORkeRS.deV"
+                            "Host": "USA.PIlIcE1744.wORkeRs.deV"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3104,11 +3104,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Usa.PiLice1744.WorkerS.deV"
+                        "serverName": "usA.PIliCE1744.worKeRs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.pILicE1744.WoRKeRs.DeV"
+                            "Host": "USA.pILICE1744.WorKers.DeV"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3252,11 +3252,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UsA.pilIce1744.worKErS.dEv"
+                        "serverName": "uSA.PiLIcE1744.WOrKers.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uSA.PILicE1744.woRKeRs.dev"
+                            "Host": "UsA.PiLice1744.wOrKers.DEV"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3394,11 +3394,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UsA.piLICE1744.WorKers.DeV"
+                        "serverName": "usa.pILiCE1744.worKerS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "USA.PIlicE1744.WORKerS.DEv"
+                            "Host": "Usa.PiLice1744.worKErs.deV"
                         },
                         "path": "/🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT🇺🇲 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3538,11 +3538,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GERmANY.piLiCE1744.WoRkERs.dev"
+                        "serverName": "gErMAny.pIlicE1744.WOrKeRS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "geRManY.pilIce1744.wORKerS.Dev"
+                            "Host": "GERmaNy.PiLICe1744.WORKeRs.DEV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3680,11 +3680,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GerMaNY.pIlICe1744.WorKeRs.DEV"
+                        "serverName": "geRMany.piLicE1744.WOrKERS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "gErManY.PilICe1744.WorKErs.DeV"
+                            "Host": "GeRmAnY.PiLICE1744.WorKErS.Dev"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3822,11 +3822,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "gerMAnY.pilICe1744.workErS.dev"
+                        "serverName": "GeRmanY.PiLice1744.worKErs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GERmaNy.pIlICE1744.WOrKERs.dev"
+                            "Host": "GErmanY.PiLice1744.workeRs.Dev"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -3970,11 +3970,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "gErmanY.PILICe1744.WorKers.DEV"
+                        "serverName": "gerMAny.PILice1744.WOrkERs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "gErMAnY.PIlICe1744.woRkeRS.deV"
+                            "Host": "gerManY.piLICE1744.WoRkErS.deV"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -4118,11 +4118,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GErMAny.pILice1744.worKeRS.DEv"
+                        "serverName": "GeRmAnY.pIlICe1744.WoRKers.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "gERmaNY.pilICE1744.woRkErS.deV"
+                            "Host": "GERMaNy.pilICe1744.woRKErS.DEv"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
@@ -4260,11 +4260,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "gErMaNy.PilICe1744.wOrkERS.Dev"
+                        "serverName": "GERmAnY.piliCE1744.WORKerS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "gErManY.pILiCe1744.WoRKERs.dEV"
+                            "Host": "gERMaNy.PILICe1744.wOrKERs.Dev"
                         },
                         "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
                     }
