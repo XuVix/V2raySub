@@ -45,6 +45,148 @@
                 "settings": {
                     "vnext": [
                         {
+                            "address": "185.146.173.40",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "uk.piLicE1744.WORkERS.DeV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.pIlice1744.WOrkers.DeV"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {},
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MKH & MT...",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
                             "address": "185.146.173.237",
                             "port": 443,
                             "users": [
@@ -74,11 +216,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PIliCE1744.woRkErs.dev"
+                        "serverName": "uk.PIliCE1744.woRKers.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.piLIcE1744.wORKers.deV"
+                            "Host": "Uk.PIlIcE1744.wOrkERS.DEV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -216,11 +358,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.pIlIcE1744.workeRs.DEV"
+                        "serverName": "Uk.PiLICE1744.workers.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.PilICe1744.WOrKERS.dEV"
+                            "Host": "uK.pILIcE1744.wOrKErS.DeV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -284,7 +426,297 @@
         "stats": {}
     },
     {
-        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 3",
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MKH & MT...",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "190.93.244.144",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "Uk.pIliCE1744.WorKeRS.DEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.pIlIce1744.WOrKErS.DEv"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {},
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 11",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.40",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "UK.PIliCe1744.WOrKErs.dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.pilice1744.WOrKErs.dEV"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "10-20"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 12",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -358,11 +790,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.pIlice1744.wORKErS.DEv"
+                        "serverName": "uK.piLiCe1744.wOrKErS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.PilICE1744.worKErs.DEV"
+                            "Host": "uK.pILIce1744.WoRKerS.dEV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -432,7 +864,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 4",
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 13",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -506,11 +938,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uk.pILIcE1744.WorkErs.dEV"
+                        "serverName": "uk.piLiCe1744.WOrkErS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.PILiCe1744.workerS.dEv"
+                            "Host": "uk.PiLiCe1744.woRkers.DEV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -580,7 +1012,297 @@
         "stats": {}
     },
     {
-        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 5",
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MTN - 14",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "190.93.244.144",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "Uk.pIlicE1744.wOrkers.Dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.pILIcE1744.WORkERS.DEv"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "10-20"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 15",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.40",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "uK.PIlIcE1744.WorkERS.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.pIlicE1744.WOrKERs.deV"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {},
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 16",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -654,11 +1376,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.PILiCe1744.WOrKErS.dEV"
+                        "serverName": "uk.piliCE1744.WorKeRs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "UK.pILIce1744.wORkers.DEv"
+                            "Host": "uk.pIliCE1744.WoRkeRS.DeV"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
@@ -722,7 +1444,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 6",
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 17",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -796,11 +1518,153 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PIlICe1744.WOrKErS.Dev"
+                        "serverName": "Uk.PilICE1744.wOrKErs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.pILice1744.WORkeRs.DEV"
+                            "Host": "Uk.pIliCE1744.WOrKErs.DEv"
+                        },
+                        "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {},
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇬🇧 @VPNHubMaRKeT - MCI - 18",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "190.93.244.144",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "UK.Pilice1744.worKErs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "uK.PILice1744.woRkERS.Dev"
                         },
                         "path": "/🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT🇬🇧 @VPNHubMaRKeT?ed=2560"
                     }
