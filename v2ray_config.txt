@@ -1,6 +1,148 @@
 [
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MKH & MT...",
+        "remarks": "🇳🇱 @XuVixC - MKH - 1",
+        "dns": {
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "userLevel": 8
+                },
+                "tag": "http"
+            }
+        ],
+        "log": {
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.40",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "AMS.PilICE1744.WoRkErS.DEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "AmS.PIlice1744.WOrKers.deV"
+                        },
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {},
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "🇳🇱 @XuVixC - MKH - 2",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -74,13 +216,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMINerRor.SaJAn87847.WOrkerS.DEV"
+                        "serverName": "amS.PILiCE1744.WorkerS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMinErrOR.saJAn87847.Workers.DEV"
+                            "Host": "aMs.PiLICe1744.worKeRS.DEv"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -142,7 +284,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MKH & MT...",
+        "remarks": "🇳🇱 @XuVixC - MKH - 3",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -216,13 +358,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMiNErrOr.SAJAn87847.WorkERs.DEV"
+                        "serverName": "Ams.pILIce1744.WoRKeRs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMIneRroR.sAjAn87847.WOrkErs.dEV"
+                            "Host": "amS.PiliCe1744.WoRKErs.DEV"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -284,7 +426,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MKH & MT...",
+        "remarks": "🇳🇱 @XuVixC - MKH - 4",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -329,7 +471,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.193.157",
+                            "address": "190.93.244.144",
                             "port": 443,
                             "users": [
                                 {
@@ -358,13 +500,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMINErRor.saJAN87847.wORkers.deV"
+                        "serverName": "Ams.PIlIcE1744.WOrkers.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMineRRoR.SajAn87847.wOrKeRs.Dev"
+                            "Host": "ams.pilIce1744.worKERS.Dev"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -426,7 +568,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MKH & MT...",
+        "remarks": "🇳🇱 @XuVixC - MTN - 5",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -471,7 +613,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.16.190.131",
+                            "address": "185.146.173.40",
                             "port": 443,
                             "users": [
                                 {
@@ -500,13 +642,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmInERROR.sAJAn87847.worKers.DeV"
+                        "serverName": "AMs.pilICe1744.WorkErs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "amINErrOR.SAJaN87847.wORKErS.dev"
+                            "Host": "AMS.piLiCe1744.WOrKers.Dev"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -514,7 +656,13 @@
             {
                 "tag": "fragment",
                 "protocol": "freedom",
-                "settings": {},
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "2-4"
+                    }
+                },
                 "streamSettings": {
                     "sockopt": {
                         "tcpKeepAliveIdle": 100,
@@ -568,7 +716,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MTN - 5",
+        "remarks": "🇳🇱 @XuVixC - MTN - 6",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -642,13 +790,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMInError.sAjaN87847.WORKErs.dEV"
+                        "serverName": "aMs.PiLice1744.WorKERs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMinerROr.sAJAn87847.WORKeRs.DEV"
+                            "Host": "Ams.pILIcE1744.wORkeRs.dEv"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -660,7 +808,7 @@
                     "fragment": {
                         "packets": "tlshello",
                         "length": "100-200",
-                        "interval": "10-20"
+                        "interval": "2-4"
                     }
                 },
                 "streamSettings": {
@@ -716,7 +864,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MTN - 6",
+        "remarks": "🇳🇱 @XuVixC - MTN - 7",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -790,13 +938,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMiNErroR.SAJaN87847.WoRKeRs.dev"
+                        "serverName": "Ams.pilICe1744.WoRkeRS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "amINErroR.saJAn87847.woRkers.dEv"
+                            "Host": "aMs.pIlIcE1744.wOrKers.Dev"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -808,7 +956,7 @@
                     "fragment": {
                         "packets": "tlshello",
                         "length": "100-200",
-                        "interval": "10-20"
+                        "interval": "2-4"
                     }
                 },
                 "streamSettings": {
@@ -864,7 +1012,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MTN - 7",
+        "remarks": "🇳🇱 @XuVixC - MTN - 8",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -909,7 +1057,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.193.157",
+                            "address": "190.93.244.144",
                             "port": 443,
                             "users": [
                                 {
@@ -938,13 +1086,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amiNeRroR.SAjAn87847.WorKers.dev"
+                        "serverName": "AMS.piliCE1744.WOrKERS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMiNERrOR.sAjaN87847.WORKErs.deV"
+                            "Host": "AMs.pilIcE1744.workerS.dEv"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -956,7 +1104,7 @@
                     "fragment": {
                         "packets": "tlshello",
                         "length": "100-200",
-                        "interval": "10-20"
+                        "interval": "2-4"
                     }
                 },
                 "streamSettings": {
@@ -1012,7 +1160,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MTN - 8",
+        "remarks": "🇳🇱 @XuVixC - MCI - 9",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -1057,8 +1205,8 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.16.190.131",
-                            "port": 443,
+                            "address": "185.146.173.40",
+                            "port": 80,
                             "users": [
                                 {
                                     "encryption": "none",
@@ -1073,7 +1221,7 @@
                 },
                 "streamSettings": {
                     "network": "ws",
-                    "security": "tls",
+                    "security": "",
                     "sockopt": {
                         "dialerProxy": "fragment",
                         "tcpKeepAliveIdle": 100,
@@ -1086,13 +1234,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmINERROR.saJAn87847.worKERS.Dev"
+                        "serverName": "ams.pilIcE1744.woRkeRs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMINERRoR.sajaN87847.wORkeRs.DEv"
+                            "Host": "AMs.piLIcE1744.wORkers.dEv"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1100,13 +1248,7 @@
             {
                 "tag": "fragment",
                 "protocol": "freedom",
-                "settings": {
-                    "fragment": {
-                        "packets": "tlshello",
-                        "length": "100-200",
-                        "interval": "10-20"
-                    }
-                },
+                "settings": {},
                 "streamSettings": {
                     "sockopt": {
                         "tcpKeepAliveIdle": 100,
@@ -1160,7 +1302,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MCI - 9",
+        "remarks": "🇳🇱 @XuVixC - MCI - 10",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -1234,13 +1376,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amInErROR.saJAn87847.WorKErs.DeV"
+                        "serverName": "AmS.PilICe1744.woRkeRs.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMInErrOR.saJaN87847.WoRKERS.DeV"
+                            "Host": "ams.pIlICE1744.wORkerS.DEV"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1302,7 +1444,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MCI - 10",
+        "remarks": "🇳🇱 @XuVixC - MCI - 11",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -1376,13 +1518,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amIneRRoR.SAjAN87847.wOrkeRS.Dev"
+                        "serverName": "AMS.PiliCe1744.WORKerS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMINerror.saJAn87847.WorkerS.dEV"
+                            "Host": "aMs.pIliCE1744.wOrKERS.Dev"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1444,7 +1586,7 @@
         "stats": {}
     },
     {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MCI - 11",
+        "remarks": "🇳🇱 @XuVixC - MCI - 12",
         "dns": {
             "servers": [
                 "https://94.140.14.14/dns-query"
@@ -1489,7 +1631,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.193.157",
+                            "address": "190.93.244.144",
                             "port": 80,
                             "users": [
                                 {
@@ -1518,155 +1660,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMINerrOR.SaJAN87847.wOrkERs.Dev"
+                        "serverName": "Ams.pilicE1744.WoRKErS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AmInErRor.saJaN87847.wOrkErS.DeV"
+                            "Host": "aMS.pIlIcE1744.WORKERs.dev"
                         },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "tag": "fragment",
-                "protocol": "freedom",
-                "settings": {},
-                "streamSettings": {
-                    "sockopt": {
-                        "tcpKeepAliveIdle": 100,
-                        "tcpNoDelay": true
-                    }
-                }
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "policy": {
-            "levels": {
-                "8": {
-                    "connIdle": 300,
-                    "downlinkOnly": 1,
-                    "handshake": 4,
-                    "uplinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                }
-            ]
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "🇩🇪 @VPNHubMaRKeT - MCI - 12",
-        "dns": {
-            "servers": [
-                "https://94.140.14.14/dns-query"
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true,
-                    "userLevel": 8
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls",
-                        "fakedns"
-                    ],
-                    "enabled": true
-                },
-                "tag": "socks"
-            },
-            {
-                "port": 10809,
-                "protocol": "http",
-                "settings": {
-                    "userLevel": 8
-                },
-                "tag": "http"
-            }
-        ],
-        "log": {
-            "loglevel": "warning"
-        },
-        "outbounds": [
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "104.16.190.131",
-                            "port": 80,
-                            "users": [
-                                {
-                                    "encryption": "none",
-                                    "flow": "",
-                                    "id": "046d2291-50ae-4a5d-a017-801021c946f3",
-                                    "level": 8,
-                                    "security": "auto"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "",
-                    "sockopt": {
-                        "dialerProxy": "fragment",
-                        "tcpKeepAliveIdle": 100,
-                        "tcpNoDelay": true
-                    },
-                    "tlsSettings": {
-                        "allowInsecure": false,
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "h2",
-                            "http/1.1"
-                        ],
-                        "serverName": "AmiNErROR.sAjan87847.woRKerS.dEv"
-                    },
-                    "wsSettings": {
-                        "headers": {
-                            "Host": "aMIneRrOR.SAJan87847.WoRkERS.dEv"
-                        },
-                        "path": "/🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT🇩🇪 @VPNHubMaRKeT?ed=2560"
+                        "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
                 },
                 "tag": "proxy"
