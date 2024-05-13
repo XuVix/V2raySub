@@ -74,11 +74,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUbai.PilICE1744.wORKErS.DeV"
+                        "serverName": "dUbai.piLIcE1744.WorKERs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUbAI.pILiCE1744.WORKERs.deV"
+                            "Host": "DuBai.pIliCE1744.WORkeRS.DEV"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -216,11 +216,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUBai.pilicE1744.WoRkers.DEv"
+                        "serverName": "DubAI.PiLICe1744.workERs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DubAI.piLICe1744.WORkErS.DEV"
+                            "Host": "DUBAi.pILICe1744.worKerS.Dev"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -358,11 +358,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DuBaI.pIlICE1744.workErS.Dev"
+                        "serverName": "dUBAi.PILIcE1744.wOrkErs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "dubaI.pIlicE1744.wORkers.DEv"
+                            "Host": "dUbaI.piliCe1744.WorkERs.dev"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -500,11 +500,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dubAi.pIlicE1744.WORkErs.dev"
+                        "serverName": "dUBai.pilICe1744.wORKERs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUbaI.PiLIce1744.wOrKeRS.DeV"
+                            "Host": "dUBaI.PiLIce1744.worKErs.DEv"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -642,11 +642,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "duBAI.PiLiCE1744.woRkErs.DeV"
+                        "serverName": "DUbAi.PIlICE1744.WOrkErS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DuBai.PIlIce1744.WOrkERS.deV"
+                            "Host": "dUbAI.PiLICe1744.wORkErS.dEv"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -790,11 +790,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dubai.piLIce1744.WOrKerS.dEv"
+                        "serverName": "DUBai.pILicE1744.WOrKers.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DUBaI.PiliCE1744.wORkErS.DEV"
+                            "Host": "dUbAi.piliCe1744.wOrkERs.dEv"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -938,11 +938,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DUBAi.pIlicE1744.WorkeRS.DEv"
+                        "serverName": "DuBAI.PiLICe1744.workErs.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DuBaI.pILicE1744.WOrKeRS.dev"
+                            "Host": "dUBAI.PilICE1744.wOrKers.deV"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1086,11 +1086,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUBAI.pIlicE1744.WoRkERS.DEv"
+                        "serverName": "duBai.pilicE1744.WOrKERs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "dubAi.PIlICE1744.WORKERS.dev"
+                            "Host": "DubAI.PilicE1744.workErs.DEV"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1234,11 +1234,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DuBai.PiliCE1744.WoRKERS.dEv"
+                        "serverName": "DUbaI.PiliCE1744.wOrKeRs.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "DubAi.PIlicE1744.woRkeRs.dEV"
+                            "Host": "DuBaI.piliCe1744.WoRkERS.DEv"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1376,11 +1376,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUBAI.pIliCE1744.WOrkErs.Dev"
+                        "serverName": "dUbai.piLiCE1744.workerS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "dubaI.pIlIce1744.WoRKeRs.dEV"
+                            "Host": "DubAi.pIliCe1744.workERs.deV"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1518,11 +1518,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "DubAi.pIlICe1744.WorKerS.dEv"
+                        "serverName": "DuBaI.pilice1744.woRKers.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "dUBai.pILICe1744.WoRKErS.DeV"
+                            "Host": "DuBAI.PilIcE1744.WORkErs.DEV"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1660,11 +1660,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "dUbAI.pIlicE1744.wOrKerS.dEV"
+                        "serverName": "dUBai.PILICe1744.worKeRs.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Dubai.pIlicE1744.WorkERs.Dev"
+                            "Host": "DuBai.piLiCe1744.WoRKErs.dev"
                         },
                         "path": "/🇦🇪 @XuVixC🇦🇪 @XuVixC🇦🇪 @XuVixC?ed=2560"
                     }
@@ -1804,11 +1804,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.PilIce1744.WORkERS.DEV"
+                        "serverName": "UK.pIlIce1744.WOrKErS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.PILICE1744.wOrkerS.dev"
+                            "Host": "uk.pIlice1744.WorKers.DEV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -1946,11 +1946,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PiLice1744.wORkErS.dEV"
+                        "serverName": "uK.pILICE1744.WoRkERs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.PilICE1744.wORkerS.DEV"
+                            "Host": "Uk.PiLICE1744.WOrKers.DEv"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2088,11 +2088,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UK.PiLIcE1744.woRKERs.DeV"
+                        "serverName": "Uk.PiLiCE1744.workERS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.pILIce1744.worKERS.deV"
+                            "Host": "UK.pILiCe1744.wOrKerS.dev"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2230,11 +2230,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UK.pIlICE1744.wORKErS.dev"
+                        "serverName": "uk.PILIce1744.WorkErS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.pIlICE1744.WOrKErS.DEv"
+                            "Host": "uk.PILiCE1744.wORkeRs.DEv"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2372,11 +2372,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.PIlICe1744.WoRKers.Dev"
+                        "serverName": "UK.pIlIcE1744.WorkERs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.pIlice1744.WOrkERS.deV"
+                            "Host": "uK.piLicE1744.WorKeRS.deV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2520,11 +2520,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.piLiCE1744.woRKERs.dev"
+                        "serverName": "uk.pIlIce1744.WOrkeRs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.pILIce1744.wOrkErs.dEv"
+                            "Host": "uK.piliCe1744.WORKERS.DeV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2668,11 +2668,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PILICe1744.WoRkeRs.Dev"
+                        "serverName": "uK.piliCE1744.wOrKerS.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "UK.pilice1744.WoRKErs.dEV"
+                            "Host": "UK.pILICe1744.worKERS.dev"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2816,11 +2816,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uK.PIliCe1744.wORkERs.dEV"
+                        "serverName": "uK.PIlIcE1744.wOrKERs.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uk.pIliCe1744.WORKerS.dEv"
+                            "Host": "uK.pIlIce1744.workErs.Dev"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -2964,11 +2964,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UK.piliCE1744.worKeRS.dEv"
+                        "serverName": "uK.PilICe1744.wORKeRs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "UK.pILice1744.WoRKerS.dEv"
+                            "Host": "uk.pILICE1744.worKers.deV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -3106,11 +3106,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.pIlice1744.WoRkeRS.Dev"
+                        "serverName": "uK.pIlice1744.workerS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "UK.PIlIcE1744.WorkErS.dEv"
+                            "Host": "uK.PILIce1744.workeRS.dEV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -3248,11 +3248,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uk.PilICe1744.WOrKeRS.Dev"
+                        "serverName": "uk.PIlice1744.WOrKErS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uK.pilICe1744.WORKerS.dEv"
+                            "Host": "UK.PilicE1744.wOrKErS.dEV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -3390,11 +3390,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Uk.PILICE1744.wOrkeRS.dEv"
+                        "serverName": "uK.pILiCe1744.woRKERs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Uk.PiLiCE1744.woRKers.dev"
+                            "Host": "uK.PilIce1744.wOrkErs.deV"
                         },
                         "path": "/🇬🇧 @XuVixC🇬🇧 @XuVixC🇬🇧 @XuVixC?ed=2560"
                     }
@@ -3534,11 +3534,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "usa.piLIce1744.WORkErs.DEV"
+                        "serverName": "usa.PILICE1744.wOrKERs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uSA.PILIce1744.WORkErS.dEV"
+                            "Host": "UsA.PiLicE1744.WORKErs.DeV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -3676,11 +3676,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "USa.PIlIcE1744.woRKERs.dev"
+                        "serverName": "UsA.PiLICe1744.WoRKeRS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "USa.PILICE1744.WoRKERS.DEv"
+                            "Host": "uSA.pIlicE1744.WOrkErS.DeV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -3818,11 +3818,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "USa.pilICE1744.worKERS.DeV"
+                        "serverName": "uSA.piLiCe1744.wOrkERs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.piLICe1744.WorKers.dEV"
+                            "Host": "UsA.pIlIce1744.WORKerS.dEV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -3960,11 +3960,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "UsA.pIlIce1744.wORKerS.dEv"
+                        "serverName": "Usa.PiLICe1744.WOrKers.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "uSa.piLiCE1744.wOrkErs.deV"
+                            "Host": "usa.pilicE1744.worKeRS.deV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4102,11 +4102,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Usa.pILICE1744.worKErS.DeV"
+                        "serverName": "USa.PilICE1744.WorKerS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "USA.pILice1744.workerS.dEV"
+                            "Host": "USa.PILiCE1744.wOrKErS.dEv"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4250,11 +4250,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Usa.pilice1744.WoRkErS.dEV"
+                        "serverName": "usA.pILICE1744.WoRKErs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.PiLicE1744.WOrkErs.DeV"
+                            "Host": "uSA.pIliCE1744.woRkErs.DEV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4398,11 +4398,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "USa.pilIcE1744.wORkers.dev"
+                        "serverName": "uSA.Pilice1744.WorKERs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "usa.PILiCe1744.workeRs.DeV"
+                            "Host": "UsA.PIlICE1744.wORKerS.DeV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4546,11 +4546,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "uSa.PILIce1744.WOrkERs.Dev"
+                        "serverName": "uSA.piLicE1744.wOrkerS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "UsA.pIlice1744.workErS.deV"
+                            "Host": "usA.PILicE1744.wORkERS.DEV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4694,11 +4694,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "usA.PilIce1744.WoRKErS.Dev"
+                        "serverName": "uSA.piliCe1744.WORKERs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.pIlIcE1744.WoRkErS.DeV"
+                            "Host": "USA.PiLiCE1744.wORKeRS.Dev"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4836,11 +4836,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "usa.piLice1744.WorKeRS.DEV"
+                        "serverName": "usA.PILiCe1744.WORKeRs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.PiliCe1744.WOrKeRS.deV"
+                            "Host": "uSA.PILIcE1744.wOrKeRs.Dev"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -4978,11 +4978,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "usa.piLiCE1744.wOrkeRS.DEv"
+                        "serverName": "UsA.pILiCE1744.wOrKErS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Usa.PilICE1744.WOrKerS.deV"
+                            "Host": "uSa.piLice1744.woRKErs.DEV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -5120,11 +5120,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "usa.piLicE1744.woRkerS.DEv"
+                        "serverName": "Usa.piLICe1744.WORkErs.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "USa.PiLiCe1744.wORkeRS.DEV"
+                            "Host": "usA.pILICe1744.woRkeRS.dEV"
                         },
                         "path": "/🇺🇲 @XuVixC🇺🇲 @XuVixC🇺🇲 @XuVixC?ed=2560"
                     }
@@ -5264,11 +5264,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GerMANy.pILice1744.WORkers.dev"
+                        "serverName": "gERmANY.PilicE1744.woRkerS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "gERmAnY.PILICe1744.wOrkErS.DEv"
+                            "Host": "GERmanY.piLice1744.WOrKERs.deV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -5406,11 +5406,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GerMaNY.piliCE1744.workErS.deV"
+                        "serverName": "GERMaNY.pILiCe1744.woRkeRs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "geRMaNY.PIlicE1744.WorkERS.DeV"
+                            "Host": "gErMany.PIlICE1744.wOrkeRs.dEv"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -5548,11 +5548,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GErMANY.pilICe1744.WoRKErs.Dev"
+                        "serverName": "GermAnY.pIlICe1744.workeRs.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "geRMAnY.PILIce1744.workeRS.deV"
+                            "Host": "gerMaNy.PILiCe1744.WorKErs.dev"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -5690,11 +5690,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GErMaNy.pILICe1744.wOrkErs.deV"
+                        "serverName": "geRMANY.piLice1744.wORkERS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GermANY.PIlice1744.worKErS.dEv"
+                            "Host": "gERMANy.PiLicE1744.woRkerS.DEv"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -5832,11 +5832,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "geRmANY.PIliCE1744.wORKERs.dev"
+                        "serverName": "GeRmANy.pilICE1744.WoRKerS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GeRmAny.pILIce1744.WORkerS.deV"
+                            "Host": "geRMANY.pIlicE1744.WORkErs.DEV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -5980,11 +5980,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GermanY.PiLIce1744.WOrKeRs.DeV"
+                        "serverName": "gerMAnY.pIlIcE1744.woRkERS.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "germanY.piLice1744.WoRKeRs.deV"
+                            "Host": "germany.PilIcE1744.worKers.dEv"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6128,11 +6128,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "germaNy.PiLice1744.woRKERs.DeV"
+                        "serverName": "GeRmAnY.pilIce1744.WoRkeRS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "geRmAny.piliCe1744.wORKeRS.deV"
+                            "Host": "GeRmAnY.PiLICE1744.woRkERS.DeV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6276,11 +6276,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "GeRmanY.pilicE1744.wORKERS.DeV"
+                        "serverName": "gERmANY.pIlIcE1744.WOrKERS.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GerMaNy.piliCE1744.wORkeRs.dEv"
+                            "Host": "gERMAnY.pILiCE1744.WoRkErS.dev"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6424,11 +6424,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "gERMANY.PILiCE1744.WorkeRs.deV"
+                        "serverName": "GeRMAny.PiLICE1744.WORkers.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GErmANy.PILIcE1744.WORKers.deV"
+                            "Host": "GErmany.PilIcE1744.WORkErS.dEV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6566,11 +6566,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "geRmANy.pIlICE1744.WoRKErS.dev"
+                        "serverName": "gerMaNy.pIliCe1744.woRKeRS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "GERMAny.PILiCe1744.WoRKErS.Dev"
+                            "Host": "gerMAnY.PiLiCe1744.wORKeRs.dEV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6708,11 +6708,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "germANY.pIliCe1744.wOrKeRS.dEv"
+                        "serverName": "gErManY.PilicE1744.WorkeRs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "germAnY.piliCE1744.WOrkERS.Dev"
+                            "Host": "gErMANY.Pilice1744.WORKerS.dev"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6850,11 +6850,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "geRmany.PiliCe1744.WOrKErS.deV"
+                        "serverName": "gERManY.pilIce1744.wORkeRS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "germAny.piLiCE1744.WorKErS.DEv"
+                            "Host": "GeRMaNY.PilicE1744.workers.deV"
                         },
                         "path": "/🇩🇪 @XuVixC🇩🇪 @XuVixC🇩🇪 @XuVixC?ed=2560"
                     }
@@ -6994,11 +6994,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amS.Pilice1744.worKers.dEV"
+                        "serverName": "AmS.piLice1744.wOrKeRs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMS.PILicE1744.wORkeRS.DeV"
+                            "Host": "AmS.PILiCe1744.wOrKers.DeV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7136,11 +7136,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMs.PilIce1744.WOrKeRs.DEV"
+                        "serverName": "AmS.PiLICE1744.wOrKeRs.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMs.PilicE1744.wORKERs.dEv"
+                            "Host": "Ams.PiLICe1744.WOrkeRs.DEv"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7278,11 +7278,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amS.piliCE1744.WoRkERs.DEv"
+                        "serverName": "AmS.piLICE1744.wOrkeRs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMs.pIliCe1744.woRKerS.DeV"
+                            "Host": "Ams.pILicE1744.woRKERs.dEV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7420,11 +7420,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "Ams.pIlICe1744.WORkeRs.Dev"
+                        "serverName": "AMS.pILICE1744.WorKERS.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AmS.pILICe1744.WOrkErs.DeV"
+                            "Host": "ams.pIlIce1744.WOrKERs.deV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7562,11 +7562,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "amS.pIlice1744.WORKeRS.DEv"
+                        "serverName": "AMS.pILice1744.WoRkers.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMS.PiLIcE1744.WoRkERs.deV"
+                            "Host": "AmS.PIliCe1744.worKerS.dEv"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7710,11 +7710,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "ams.pilicE1744.WoRkerS.DEv"
+                        "serverName": "aMS.pILicE1744.WOrkeRs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AmS.PilIce1744.woRKErS.DeV"
+                            "Host": "ams.PilIcE1744.wORKeRS.deV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -7858,11 +7858,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMS.PILiCE1744.WorKers.DEv"
+                        "serverName": "amS.pIlICE1744.worKerS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMS.PilicE1744.WoRKErs.dev"
+                            "Host": "amS.PIliCe1744.worKeRS.DEv"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -8006,11 +8006,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AmS.pilICE1744.workErs.deV"
+                        "serverName": "AMS.PiliCE1744.wORKERS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMS.PIliCe1744.workErs.dev"
+                            "Host": "aMS.pIliCe1744.WOrKErs.deV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -8154,11 +8154,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMs.PIlicE1744.wOrkErs.DEv"
+                        "serverName": "AMs.PILice1744.WoRKerS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "AMS.PIlICE1744.wORkERS.Dev"
+                            "Host": "amS.pilicE1744.worKerS.Dev"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -8296,11 +8296,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "AMs.pIliCE1744.wOrkeRS.deV"
+                        "serverName": "AMs.PiLiCE1744.woRkeRs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMs.PILICe1744.workERs.DeV"
+                            "Host": "Ams.PiLice1744.WoRkERS.DEV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -8438,11 +8438,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aMs.pIlIce1744.WoRkERs.DeV"
+                        "serverName": "ams.piLice1744.wOrKErS.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "Ams.pilicE1744.WOrKeRS.Dev"
+                            "Host": "AMS.PiliCe1744.WorkERS.DEv"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
@@ -8580,11 +8580,11 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "ams.PilIcE1744.woRkeRs.Dev"
+                        "serverName": "ams.pilIcE1744.worKErS.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "aMs.PiLICE1744.WorkeRs.DEv"
+                            "Host": "AmS.piLiCE1744.WorKErs.dEV"
                         },
                         "path": "/🇳🇱 @XuVixC🇳🇱 @XuVixC🇳🇱 @XuVixC?ed=2560"
                     }
