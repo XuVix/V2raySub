@@ -1,142 +1,1412 @@
-{
-  "remarks": "🇳🇱 @ProxyHubC ",
-  "dns": {
-    "servers": [
-      "https://94.140.14.14/dns-query"
-    ],
-    "queryStrategy": "UseIP",
-    "tag": "dns"
-  },
-  "inbounds": [
+[
     {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
         ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.146.173.237",
-            "port": 80,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "046d2291-50ae-4a5d-a017-801021c946f3",
-                "level": 8,
-                "security": "auto"
-              }
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "11-22"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
             ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "tcpNoDelay": true
         },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "serverName": "PRoXYHuBC.sajaN87847.woRkeRs.dEv"
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
         },
-        "wsSettings": {
-          "headers": {
-            "Host": "pRoxyHubc.saJAn87847.WORKErS.dEV"
-          },
-          "path": "/🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC🇳🇱 @ProxyHubC?ed=2560"
-        }
-      },
-      "tag": "proxy"
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 Data Usage : 0 B"
     },
     {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {},
-      "streamSettings": {
-        "sockopt": {
-          "tcpKeepAliveIdle": 100,
-          "tcpNoDelay": true
-        }
-      }
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    }
-  ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "ip": [
-          "geoip:private"
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
         ],
-        "outboundTag": "direct",
-        "type": "field"
-      }
-    ]
-  },
-  "stats": {}
-}
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "4-8"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2079 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2079 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2078 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-20",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2078 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2077 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2077 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2076 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "11-22"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2076 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2075 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "4-8"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2075 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2074 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2074 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b3 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b3 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b2 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-20",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b2 Data Usage : 0 B"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9 Data Usage : 0 B",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9 Data Usage : 0 B"
+    }
+]
