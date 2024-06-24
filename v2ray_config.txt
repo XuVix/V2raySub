@@ -47,7 +47,7 @@
         ],
         "outbounds": [
             {
-                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 @ProxyHubC",
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 @VpnHubMarKeT",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
@@ -117,7 +117,7 @@
             "domainStrategy": "AsIs",
             "rules": []
         },
-        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 @ProxyHubC"
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b2 @VpnHubMarKeT"
     },
     {
         "log": {
@@ -167,7 +167,7 @@
         ],
         "outbounds": [
             {
-                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 @ProxyHubC",
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 @VpnHubMarKeT",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
@@ -237,7 +237,7 @@
             "domainStrategy": "AsIs",
             "rules": []
         },
-        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 @ProxyHubC"
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u00b9 @VpnHubMarKeT"
     },
     {
         "log": {
@@ -287,7 +287,7 @@
         ],
         "outbounds": [
             {
-                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 @ProxyHubC",
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 @VpnHubMarKeT",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
@@ -357,7 +357,7 @@
             "domainStrategy": "AsIs",
             "rules": []
         },
-        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 @ProxyHubC"
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9\u2070 @VpnHubMarKeT"
     },
     {
         "log": {
@@ -407,7 +407,7 @@
         ],
         "outbounds": [
             {
-                "tag": "\ud83c\uddf8\ud83c\uddea\u2079 @ProxyHubC",
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2079 @VpnHubMarKeT",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
@@ -477,7 +477,7 @@
             "domainStrategy": "AsIs",
             "rules": []
         },
-        "remarks": "\ud83c\uddf8\ud83c\uddea\u2079 @ProxyHubC"
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2079 @VpnHubMarKeT"
     },
     {
         "log": {
@@ -527,7 +527,7 @@
         ],
         "outbounds": [
             {
-                "tag": "\ud83c\uddf8\ud83c\uddea\u2078 @ProxyHubC",
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2078 @VpnHubMarKeT",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
@@ -579,4 +579,834 @@
                 "tag": "fragment_out",
                 "protocol": "freedom",
                 "settings": {
-                    "fragme
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-20",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2078 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2077 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "dfgdfgfhg.hubmarket.website."
+                        },
+                        "path": "/@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC,@ProxyHubC/?ed=2560"
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                },
+                "mux": {
+                    "enabled": true,
+                    "concurrency": 8,
+                    "xudpConcurrency": 8,
+                    "xudpProxyUDP443": "reject"
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2077 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2076 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "11-22"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2076 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2075 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "4-8"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2075 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u2074 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u2074 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b3 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "8-10",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b3 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b2 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-20",
+                        "interval": "10-20"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b2 @VpnHubMarKeT"
+    },
+    {
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "0.0.0.0",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "0.0.0.0",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "\ud83c\uddf8\ud83c\uddea\u00b9 @VpnHubMarKeT",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
+                                    "alterId": 0,
+                                    "email": "https://gozargah.github.io/marzban/",
+                                    "security": "auto",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "grpc",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "dfgdfgfhg.hubmarket.website.",
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2,http/1.1"
+                        ],
+                        "show": false
+                    },
+                    "grpcSettings": {
+                        "multiMode": false,
+                        "idle_timeout": 60,
+                        "health_check_timeout": 20,
+                        "permit_without_stream": false,
+                        "initial_windows_size": 0
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment_out"
+                    }
+                }
+            },
+            {
+                "tag": "fragment_out",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "100-200",
+                        "interval": "1-2"
+                    }
+                }
+            }
+        ],
+        "dns": {
+            "servers": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ]
+        },
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": []
+        },
+        "remarks": "\ud83c\uddf8\ud83c\uddea\u00b9 @VpnHubMarKeT"
+    }
+]
