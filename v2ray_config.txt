@@ -146,8 +146,7 @@
   ],
   "stats": {},
   "remarks": "🇩🇪 @VPNHubMarket"
-},
-{
+},{
   "log": {
     "loglevel": "warning"
   },
