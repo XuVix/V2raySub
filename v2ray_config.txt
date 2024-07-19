@@ -1,53 +1,81 @@
 {
-  "remarks": "🇩🇪 @VPNHubMarket",
   "log": {
-    "access": "",
-    "error": "",
     "loglevel": "warning"
+  },
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.2",
+      "1.0.0.2",
+      "localhost"
+    ],
+    "tag": "dns_out"
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "domain": [
+          "geosite:category-ads-all",
+          "geosite:category-ads-ir"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "domain": [
+          "regexp:.*\\.ir",
+          "domain:.ir",
+          "geosite:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:ir",
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  },
+  "policy": {
+    "system": {
+      "statsOutboundDownlink": true,
+      "statsOutboundUplink": true
+    }
   },
   "inbounds": [
     {
-      "tag": "socks",
       "port": 10808,
-      "listen": "127.0.0.1",
       "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
-      }
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
     },
     {
-      "tag": "http",
       "port": 10809,
-      "listen": "127.0.0.1",
       "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
       "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+        "userLevel": 8
+      },
+      "tag": "http"
     }
   ],
   "outbounds": [
     {
-      "tag": "proxy",
+      "tag": "🇩🇪 @VPNHubMarket",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -58,10 +86,9 @@
               {
                 "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
                 "alterId": 0,
-                "email": "t@t.tt",
+                "email": "https://gozargah.github.io/marzban/",
                 "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "encryption": "none"
               }
             ]
           }
@@ -71,26 +98,23 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
+          "serverName": "dashboard.zxcv1234.site.",
           "allowInsecure": false,
-          "serverName": "DaSHboARD.ZXcV1234.sItE.",
+          "fingerprint": "chrome",
           "alpn": [
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket?ed=2560",
           "headers": {
-            "Host": "DaSHboARD.ZXcV1234.sItE."
-          }
+            "Host": "dashboard.zxcv1234.site."
+          },
+          "path": "/@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
+          "dialerProxy": "fragment_out"
         }
       },
       "mux": {
@@ -101,130 +125,106 @@
       }
     },
     {
-      "tag": "fragment",
+      "tag": "fragment_out",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
           "length": "10-20",
           "interval": "1-2"
         }
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
       }
     },
     {
       "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     },
     {
       "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
+      "protocol": "blackhole"
     }
   ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5465425548310166497",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:ir",
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5425034033205580637",
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn",
-          "geoip:ir"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  }
+  "stats": {},
+  "remarks": "🇩🇪 @VPNHubMarket"
 },
 {
-  "remarks": "🇬🇧 @VPNHubMarket",
   "log": {
-    "access": "",
-    "error": "",
     "loglevel": "warning"
+  },
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.2",
+      "1.0.0.2",
+      "localhost"
+    ],
+    "tag": "dns_out"
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "domain": [
+          "geosite:category-ads-all",
+          "geosite:category-ads-ir"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "domain": [
+          "regexp:.*\\.ir",
+          "domain:.ir",
+          "geosite:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:ir",
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  },
+  "policy": {
+    "system": {
+      "statsOutboundDownlink": true,
+      "statsOutboundUplink": true
+    }
   },
   "inbounds": [
     {
-      "tag": "socks",
       "port": 10808,
-      "listen": "127.0.0.1",
       "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
-      }
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
     },
     {
-      "tag": "http",
       "port": 10809,
-      "listen": "127.0.0.1",
       "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
       "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+        "userLevel": 8
+      },
+      "tag": "http"
     }
   ],
   "outbounds": [
     {
-      "tag": "proxy",
+      "tag": "🇬🇧 @VPNHubMarket",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -235,10 +235,9 @@
               {
                 "id": "163c97c1-8466-4889-aa50-6b79bb439c63",
                 "alterId": 0,
-                "email": "t@t.tt",
+                "email": "https://gozargah.github.io/marzban/",
                 "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "encryption": "none"
               }
             ]
           }
@@ -248,26 +247,23 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
+          "serverName": "panel.zxcv1234.site.",
           "allowInsecure": false,
-          "serverName": "PANel.ZxcV1234.sIte.",
+          "fingerprint": "chrome",
           "alpn": [
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket?ed=2560",
           "headers": {
-            "Host": "PANel.ZxcV1234.sItE."
-          }
+            "Host": "panel.zxcv1234.site."
+          },
+          "path": "/@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket,@VPNHubMarket?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
+          "dialerProxy": "fragment_out"
         }
       },
       "mux": {
@@ -278,77 +274,25 @@
       }
     },
     {
-      "tag": "fragment",
+      "tag": "fragment_out",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
           "length": "10-20",
           "interval": "1-2"
         }
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
       }
     },
     {
       "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     },
     {
       "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
+      "protocol": "blackhole"
     }
   ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5465425548310166497",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:ir",
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5425034033205580637",
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn",
-          "geoip:ir"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  }
+  "stats": {},
+  "remarks": "🇬🇧 @VPNHubMarket"
 }
